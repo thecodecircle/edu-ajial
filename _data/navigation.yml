@@ -1,8 +1,8 @@
-- title: Home
+- title: בית
   url: /
-- title: Posts
+- title: פעולות
   url: /posts/
-- title: Categories
+- title: קטגוריות
   url: /categories/
-- title: Tags
+- title: תגיות
   url: /tags/
