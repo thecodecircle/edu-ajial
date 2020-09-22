@@ -9,8 +9,8 @@ collections:
     folder: '_posts'
     create: true
     slug: '{{slug}}'
-    editor:
-      preview: false
+    # editor:
+    #   preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
