@@ -1,12 +1,12 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+media_folder: '_site/assets/uploads'
 
 collections:
   - name: 'peula'
     label: 'Peula'
-    folder: '_posts'
+    folder: '_site/_posts'
     create: true
     slug: '{{slug}}'
     editor:
@@ -21,23 +21,23 @@ collections:
       - label: "Goals"
         name: "goals"
         widget: "list"
-        # field: {label: 'Goal', name: 'goal', widget: 'string'}
+        field: {label: 'Goal', name: 'goal', widget: 'string'}
       - label: "Course"
         name: "course"
         widget: "list"
-        # field: {label: 'Method', name: 'method', widget: 'string'}
+        field: {label: 'Method', name: 'method', widget: 'string'}
       - label: "Equipment"
         name: "equipment"
         widget: "list"
-        # field: {label: 'Equipment', name: 'equipment', widget: 'string'}
+        field: {label: 'Equipment', name: 'equipment', widget: 'string'}
       - label: "Categories"
         name: "categories"
         widget: "list"
-        # field: {label: 'Category', name: 'category', widget: 'string'}
+        field: {label: 'Category', name: 'category', widget: 'string'}
       - label: "Tags"
         name: "tags"
         widget: "list"
-        # field: {label: 'Tag', name: 'tag', widget: 'string'}
+        field: {label: 'Tag', name: 'tag', widget: 'string'}
       # - { label: 'Body', name: 'body', widget: 'markdown' }
 
 # layout
