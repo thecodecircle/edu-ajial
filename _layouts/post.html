@@ -22,7 +22,10 @@ layout: default
         </div> -->
         <h3 class="page-taxonomies-title">ציוד:</h3>
         <div class="equipment">
-          {{ page.equipment | markdownify }}
+          {% for item in page.equipment %}
+            {{ forloop.index }}. {{ item }}
+          {% endfor%}
+          <!-- {{ page.equipment | markdownify }} -->
         </div>
       </div>
 
