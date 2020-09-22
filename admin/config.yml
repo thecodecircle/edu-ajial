@@ -21,23 +21,23 @@ collections:
       - label: "Categories"
         name: "categories"
         widget: "list"
-        field: {label: 'Category', name: 'category', widget: 'string'}
+        # field: {label: 'Category', name: 'category', widget: 'string'}
       - label: "Tags"
         name: "tags"
         widget: "list"
-        field: {label: 'Tag', name: 'tag', widget: 'string'}
+        # field: {label: 'Tag', name: 'tag', widget: 'string'}
       - label: "Goals"
         name: "goals"
         widget: "list"
-        field: {label: 'Goal', name: 'goal', widget: 'string'}
+        # field: {label: 'Goal', name: 'goal', widget: 'string'}
       - label: "Course"
         name: "course"
         widget: "list"
-        field: {label: 'Method', name: 'method', widget: 'string'}
+        # field: {label: 'Method', name: 'method', widget: 'string'}
       - label: "Equipment"
         name: "equipment"
         widget: "list"
-        field: {label: 'Equipment', name: 'equipment', widget: 'string'}
+        # field: {label: 'Equipment', name: 'equipment', widget: 'string'}
       # - { label: 'Body', name: 'body', widget: 'markdown' }
 
 # layout
