@@ -5,7 +5,7 @@ media_folder: 'assets/uploads'
 
 collections:
   - name: 'peula'
-    label: 'Peula'
+    label: 'פעולה'
     folder: '_posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -13,41 +13,30 @@ collections:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'desc', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Age', name: 'age', widget: 'string' }
-      - { label: 'Length', name: 'length', widget: 'string' }
-      - label: "Goals"
+      - { label: 'כותרת הפעולה', name: 'title', widget: 'string' }
+      - { label: 'תקציר הפעולה', name: 'desc', widget: 'string' }
+      - { label: 'משך הפעולה', name: 'length', widget: 'string' }
+      - { label: 'תאריך פרסום', name: 'date', widget: 'datetime' }
+      - label: "מטרות"
         name: "goals"
         widget: "list"
-        collapsed: false
-        minimize_collapsed: true
-        field: {label: 'Goal', name: 'goal', widget: 'string'}
-      - label: "Course"
+        field: {label: 'מטרה', name: 'goal', widget: 'string'}
+      - label: "מהלך הפעולה"
         name: "course"
         widget: "list"
-        collapsed: false
-        minimize_collapsed: true
-        field: {label: 'Method', name: 'method', widget: 'string'}
-      - label: "Equipment"
+        field: {label: 'מתודה', name: 'method', widget: 'markdown'}
+      - label: "ציוד"
         name: "equipment"
         widget: "list"
-        collapsed: false
-        minimize_collapsed: true
-        field: {label: 'Equipment', name: 'equipment', widget: 'string'}
-      - label: "Categories"
+        field: {label: 'ציוד', name: 'equipment', widget: 'string'}
+      - label: "נושאים"
         name: "categories"
         widget: "list"
-        collapsed: false
-        minimize_collapsed: true
-        field: {label: 'Category', name: 'category', widget: 'string'}
-      - label: "Tags"
+        field: {label: 'נושא', name: 'category', widget: 'string'}
+      - label: "תגיות"
         name: "tags"
         widget: "list"
-        collapsed: false
-        minimize_collapsed: true
-        field: {label: 'Tag', name: 'tag', widget: 'string'}
+        field: {label: 'תגית', name: 'tag', widget: 'string'}
       # - { label: 'Body', name: 'body', widget: 'markdown' }
 
 # layout
