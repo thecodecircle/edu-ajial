@@ -21,22 +21,32 @@ collections:
       - label: "Goals"
         name: "goals"
         widget: "list"
+        collapsed: false
+        minimize_collapsed: true
         field: {label: 'Goal', name: 'goal', widget: 'string'}
       - label: "Course"
         name: "course"
         widget: "list"
+        collapsed: false
+        minimize_collapsed: true
         field: {label: 'Method', name: 'method', widget: 'string'}
       - label: "Equipment"
         name: "equipment"
         widget: "list"
+        collapsed: false
+        minimize_collapsed: true
         field: {label: 'Equipment', name: 'equipment', widget: 'string'}
       - label: "Categories"
         name: "categories"
         widget: "list"
+        collapsed: false
+        minimize_collapsed: true
         field: {label: 'Category', name: 'category', widget: 'string'}
       - label: "Tags"
         name: "tags"
         widget: "list"
+        collapsed: false
+        minimize_collapsed: true
         field: {label: 'Tag', name: 'tag', widget: 'string'}
       # - { label: 'Body', name: 'body', widget: 'markdown' }
 
