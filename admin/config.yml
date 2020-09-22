@@ -6,7 +6,7 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'peula'
     label: 'Peula'
-    folder: '_posts/'
+    folder: '_posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
