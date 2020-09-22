@@ -1,17 +1,11 @@
+
 backend:
   name: git-gateway
-  branch: master
-
+  branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
-
 collections:
-  - name: 'post'
+  - name: 'peula'
     label: 'Peula'
     folder: '_posts/'
-    create: true
-    editor:
-      preview: false
-    slug: '{{slug}}'
     fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
-      - {label: 'Title', name: 'title', widget: 'string'}
+      - { name: Title }
