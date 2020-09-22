@@ -15,13 +15,13 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'כותרת הפעולה', name: 'title', widget: 'string' }
       - { label: 'תקציר הפעולה', name: 'desc', widget: 'string' }
-      - { label: 'משך הפעולה', name: 'length', widget: 'string' }
+      - { label: 'משך הפעולה (במילים)', name: 'length', widget: 'string' }
       - { label: 'תאריך פרסום', name: 'date', widget: 'datetime' }
       - label: "מטרות"
         name: "goals"
         widget: "list"
         field: {label: 'מטרה', name: 'goal', widget: 'string'}
-      - label: "מהלך הפעולה"
+      - label: "מתודות"
         name: "course"
         widget: "list"
         field: {label: 'מתודה', name: 'method', widget: 'markdown'}

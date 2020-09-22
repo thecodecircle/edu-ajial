@@ -29,9 +29,11 @@ locale: he
 # Build settings
 theme: jekyll-theme-so-simple
 search_full_content: true
+permalink: /:year/:month/:day/:title
 
-paginate: 10
-paginate_path: /page:num/
+
+# paginate: 10
+# paginate_path: /page:num/
 
 # Taxonomy pages
 category_archive_path: "/categories/#"
