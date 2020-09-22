@@ -1,5 +1,5 @@
 ---
-title: Category Archive
+title: נושאים
 layout: categories
 permalink: /categories/
 show_excerpts: true

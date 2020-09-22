@@ -8,11 +8,15 @@ sitemap: false
 @import "so-simple";
 
 .grey {
-  color: grey
+  color: grey;
 }
 
 .equipment {
   text-align: right;
+}
+
+h5 {
+  margin-bottom: 0.5rem;
 }
 
 $serif-font-family: "Rubik", serif;

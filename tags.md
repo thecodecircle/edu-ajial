@@ -1,5 +1,5 @@
 ---
-title: Tag Archive
+title: תגיות
 layout: tags
 permalink: /tags/
 show_excerpts: true

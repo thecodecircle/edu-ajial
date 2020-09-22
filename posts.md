@@ -1,5 +1,5 @@
 ---
-title: Post Archive
+title: כל הפעולות
 layout: posts
 permalink: /posts/
 show_excerpts: true
