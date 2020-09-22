@@ -24,7 +24,7 @@ collections:
       - label: "מהלך הפעולה"
         name: "course"
         widget: "list"
-        field: {label: 'מתודה', name: 'method', widget: 'string'}
+        field: {label: 'מתודה', name: 'method', widget: 'markdown'}
       - label: "ציוד"
         name: "equipment"
         widget: "list"
