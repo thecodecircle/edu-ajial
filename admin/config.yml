@@ -2,18 +2,17 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "assets/uploads"
+media_folder: 'assets/uploads'
 
 collections:
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
-    label: "Peula" # Used in the UI
-    folder: "_posts" # The path to the folder where the documents are stored
+  - name: 'post' # Used in routes, e.g., /admin/collections/blog
+    label: 'Peula' # Used in the UI
+    folder: '_posts' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: 'Title', name: 'title', widget: 'string'}
 
 # collections:
 #   - name: 'peula'
@@ -30,25 +29,25 @@ collections:
       # - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       # - { label: 'Age', name: 'age', widget: 'string' }
       # - { label: 'Length', name: 'length', widget: 'string' }
-      # - label: "Goals"
-      #   name: "goals"
-      #   widget: "list"
+      # - label: 'Goals'
+      #   name: 'goals'
+      #   widget: 'list'
       #   # field: {label: 'Goal', name: 'goal', widget: 'string'}
-      # - label: "Course"
-      #   name: "course"
-      #   widget: "list"
+      # - label: 'Course'
+      #   name: 'course'
+      #   widget: 'list'
       #   # field: {label: 'Method', name: 'method', widget: 'string'}
-      # - label: "Equipment"
-      #   name: "equipment"
-      #   widget: "list"
+      # - label: 'Equipment'
+      #   name: 'equipment'
+      #   widget: 'list'
       #   # field: {label: 'Equipment', name: 'equipment', widget: 'string'}
-      # - label: "Categories"
-      #   name: "categories"
-      #   widget: "list"
+      # - label: 'Categories'
+      #   name: 'categories'
+      #   widget: 'list'
       #   # field: {label: 'Category', name: 'category', widget: 'string'}
-      # - label: "Tags"
-      #   name: "tags"
-      #   widget: "list"
+      # - label: 'Tags'
+      #   name: 'tags'
+      #   widget: 'list'
       #   # field: {label: 'Tag', name: 'tag', widget: 'string'}
 
 
