@@ -4,7 +4,7 @@ backend:
 media_folder: 'assets/uploads'
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+  - name: "_posts" # Used in routes, e.g., /admin/collections/blog
     label: "Peulas" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
