@@ -6,6 +6,6 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'peula'
     label: 'Peula'
-    folder: '_posts/'
+    folder: '_site/_posts/'
     fields:
       - { name: Title }
