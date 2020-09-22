@@ -22,19 +22,28 @@ layout: default
         </div> -->
         <h3 class="page-taxonomies-title">ציוד:</h3>
         <div class="equipment">
-          {{ page.equipment | markdownify }}
+          {% for item in page.equipment %}
+            {{ forloop.index }}. {{ item }}
+          {% endfor %}
+          <!-- {{ page.equipment | markdownify }} -->
         </div>
       </div>
 
       <div class="page-content">
         <div class="goals">
           <h5>מטרות:</h5>
-          {{ page.goals | markdownify }}
+          {% for item in page.goals %}
+            {{ forloop.index }}. {{ item }}
+          {% endfor %}
+          <!-- {{ page.goals | markdownify }} -->
         </div>
 
         <div class="course">
           <h5>מהלך:</h5>
-          {{ page.course | markdownify }}
+          {% for item in page.course %}
+            {{ forloop.index }}. {{ item | markdownify }}
+          {% endfor %}
+          <!-- {{ page.course | markdownify }} -->
         </div>
 
         <div class="e-content">
